@@ -1,5 +1,7 @@
-import StudentCard from "../studentCard/StudentCard";
-import ProductCard from "./components/productCard/ProductCard";
+import Post from './components/post/Post';
+import StudentCard from './components/studentCard/StudentCard';
+import ProductCard from './components/productCard/ProductCard';
+import TemperatureConverter from './components/temperature/TemperatureConverter';
 
 
 function App() {
@@ -19,6 +21,12 @@ function App() {
           discount={14}
         />
         <ProductCard name="Controle" unitPrice={150} discount={0} />
+      </section>
+      <section>
+        <Post />
+      </section>
+      <section>
+      <TemperatureConverter />
       </section>
     </>
   );

@@ -1,4 +1,4 @@
-import "./StudentCard.css";
+import './StudentCard.css';
 import PropTypes from "prop-types";
 
 function StudentCard({ name, grade, average }) {
