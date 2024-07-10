@@ -1,5 +1,6 @@
-import ProductCard from "./studentCard/productCard/ProductCard";
-import StudentCard from "./studentCard/StudentCard";
+import StudentCard from "../studentCard/StudentCard";
+import ProductCard from "./components/productCard/ProductCard";
+
 
 function App() {
   return (
@@ -23,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
