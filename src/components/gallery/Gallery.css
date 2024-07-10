@@ -1,0 +1,18 @@
+.Gallery {
+  padding: 2em 0; /
+}
+
+.Gallery-title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2em;
+  font-weight: 700;
+  color: #000; 
+}
+
+.Gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2em;
+}

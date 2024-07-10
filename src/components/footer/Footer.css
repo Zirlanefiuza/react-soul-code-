@@ -1,0 +1,32 @@
+.Footer {
+  background-color: #001B7A;
+  color: #FFF;
+  text-align: center;
+  padding: 2em 1em; 
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.Footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.Footer-icons {
+  display: flex;
+  gap: 1em;
+}
+
+.Footer-icons a {
+  color: #FFF;
+  font-size: 1.5em;
+  transition: color 0.3s;
+  text-decoration: none;  
+}
+
+.Footer-icons a:hover {
+  color: #FF0045;
+}

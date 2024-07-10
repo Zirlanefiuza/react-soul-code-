@@ -1,0 +1,34 @@
+.Banner {
+    padding: 5em;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel {
+    max-width: 50em;
+    width: 100%;
+  }
+  
+  .Banner .carousel-item img {
+    height: auto;
+    max-height: 40em; 
+    width: 100%;
+    max-width: 100%; 
+    object-fit: cover;
+    margin: 0 auto; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .Banner {
+      padding: 2em;
+    }
+    
+    .Banner .carousel-item img {
+      max-height: 25em; 
+      max-width: 100%; 
+    }
+  }
+  
